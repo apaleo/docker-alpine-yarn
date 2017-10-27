@@ -5,3 +5,6 @@ RUN apk add --update \
     && rm -rf /var/cache/apk/*
 
 VOLUME /data
+WORKDIR /data
+
+ENTRYPOINT yarn install && node
