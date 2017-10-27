@@ -7,4 +7,4 @@ RUN apk add --update \
 VOLUME /data
 WORKDIR /data
 
-ENTRYPOINT yarn && npm
+ENTRYPOINT ["sh", "-c"]
