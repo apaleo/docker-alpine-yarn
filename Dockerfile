@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:10
 
 RUN apk add --update \
     yarn \
