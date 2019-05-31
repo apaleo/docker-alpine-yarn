@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:12
 
 RUN apt-get update && apt-get install -y --no-install-recommends curl apt-transport-https && \
     curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
